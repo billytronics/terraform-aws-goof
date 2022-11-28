@@ -1,8 +1,8 @@
 # Snyk IaC Demo
 
-* IaC Custom rules
-* Snyk IaC scan of Terraform code (static) and Terraform plan
-* Drift detection
+1. Snyk IaC scan of Terraform code (static) and Terraform plan
+2. Snyk IaC Custom rules with Rego
+3. Drift detection
 
 This repository contains:
 * storage - Terraform code to spin up AWS S3 Bucket
