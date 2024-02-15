@@ -23,8 +23,9 @@ variable "s3_acl" {
 
 resource "aws_s3_bucket" "by-s3-bucket" {
   bucket = var.bucket_name
-  tags {
-    owner = BY
+  tags = {
+    owner = "devteam1"
+    classification = "internal"
   }
 }
 
